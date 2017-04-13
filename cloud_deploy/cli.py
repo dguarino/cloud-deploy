@@ -40,7 +40,7 @@ import git
 import spur
 import click
 from tabulate import tabulate
-from deployment import Service, Node, list_nodes, get_node, list_services, find_service
+from . import Service, Node, list_nodes, get_node, list_services, find_service
 
 logging.basicConfig(filename='deploy.log', level=logging.WARNING,
                     format='%(asctime)s %(levelname)s %(message)s')
